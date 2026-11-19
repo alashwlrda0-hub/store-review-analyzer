@@ -1,0 +1,66 @@
+# Generative AI Course – requirements.txt
+
+# Run: pip install -r requirements.txt
+
+# LangChain core packages
+
+langchain==1.2.13
+
+langchain-core==1.2.20
+
+langchain-openai==1.1.11
+
+langchain-huggingface==1.2.1
+
+# OpenAI SDK
+
+openai==2.29.0
+
+# Groq (cloud, free tier, no credit card required)
+
+langchain-groq==1.1.2
+
+# Ollama (local, completely offline)
+
+langchain-ollama==1.0.1
+
+ollama==0.6.1
+
+# Hugging Face integrations
+
+huggingface-hub==1.7.2
+
+transformers==5.3.0
+
+sentence-transformers==5.3.0
+
+# Environment variable management
+
+python-dotenv==1.2.2
+
+# Interactive web application (Streamlit)
+
+streamlit==1.55.0
+
+# Image processing and HTTP requests
+
+Pillow==12.1.1
+
+requests==2.32.5
+
+# Numerical operations and similarity calculations
+
+numpy==2.2.6
+
+scikit-learn==1.7.2
+
+# For structured outputs
+
+pydantic==2.12.5
+
+# Auxiliary packages
+
+typing-extensions==4.15.0
+
+tqdm==4.67.3
+
